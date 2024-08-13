@@ -1,0 +1,262 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    /* HEADER WORK HERE */
+    .header{
+        display:inline-block ;
+        width: 100%;
+        position: fixed;
+        
+    }
+    .toggle,.navbar,.search{
+        display: inline-block;
+    }
+    
+    .toggle{
+        padding:30px ;
+        vertical-align: top;
+    }
+    button hr{
+        color: black;
+    }
+    .toggle button{
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        line-height: 5px;
+    
+    
+    }
+    .link{
+        width: 250px;
+        margin-top: 10px;
+    }
+    .link li,a{
+        list-style:none ;
+        text-decoration: none;
+        color: black;
+    }
+    .link a:hover{
+    color: rgb(233, 26, 26);
+    font-weight: bold;
+    }
+    .link>ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .search {
+        float: right;
+        padding: 30px;
+        vertical-align: middle;
+    }
+    .search input{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100px;
+    
+    }
+    .search button{
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+    }
+    
+    .search button:hover {
+        color: rgb(233, 26, 26);
+        font-weight: bold;
+    }
+    @media (max-width:567px) {
+        .header{
+            /* display:inline-block ; */
+            width: 100%;
+            position: fixed;
+            
+            display: flex;
+            flex-direction: column;
+        
+            
+        }
+        .toggle,.navbar,.search{
+            display: block;
+        }
+        .navbar{
+         margin: auto;
+              
+        }
+        
+        .toggle{
+            padding:30px ;
+            vertical-align: top;
+        }
+        button hr{
+            color: black;
+        }
+        .toggle button{
+            width: 30px;
+            height: 30px;
+            background-color:transparent;
+            border: none;
+            line-height: 5px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        
+        }
+        .logo img{
+            width: 190px;
+            
+        }
+        .link{
+            
+            width: 190px;
+            margin-top: 10px;
+        }
+        .link li,a{
+            font-size: 10px;
+            list-style:none ;
+            text-decoration: none;
+            color:gray;
+        }
+        .search button:hover {
+            color: rgb(233, 26, 26);
+            font-weight: bold;
+        }
+        .link a:hover{
+            color: rgb(233, 26, 26);
+            font-weight: bold;
+            }
+        .link>ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        .search {
+            
+        
+            text-align: center;
+            display: block;
+            padding: 30px;
+            vertical-align: top;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .search input{
+            text-align: center;
+            display: block;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid rgb(66, 65, 65);
+            width: 150px;
+        
+        }
+        .search button{
+            display: block;
+            background-color: transparent;
+            border: none;
+            font-weight: bold;
+            color: rgb(233, 26, 26);
+    
+        }
+        
+    ul,input{
+        margin: auto;
+    }
+    section{
+        margin: 0px;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    
+    /* BENIR WORK IS HERE */
+    .pic1 img{
+        width: 100%;
+        height: 950px;
+        
+    }
+    .pic2 img{
+        
+        width: 100%;
+     height: 950px;   
+    }
+    .video{
+    margin: 0px;
+        width: 100%;
+        height: 750px;
+        /* height: 790px; */
+        /* overflow: hidden;  */
+      
+    }
+    video{
+    
+    width: 100%;
+    height: 750px;
+    height: auto;
+    object-fit: cover;
+    }
+    
+     /* FOOTER WORK HER */
+     .email{
+        text-align: center;
+        padding: 50px;
+     }
+    
+     .email span{
+    
+        display: flex;
+        width: 350px;
+        margin: auto    ;
+     }
+    
+     span p{
+    
+        width: 40px;
+        position: relative;
+        
+     }
+     .email h4{
+        font-size: 12px;
+     }
+     .email input{
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid black;
+        width: 400px;
+        margin-top: 10px;
+        height: 40px;
+        font-size: 20px;
+     }
+    
+     /* FOOTER WORK IS HERE */
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .content>div{
+        margin-top: 20px;
+    }
+    
+     .content{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .content a{
+        line-height: 40px;
+        font-size: 12px;
+    }
+    .content h5{
+        margin-bottom: 20px;
+    }
+    .content a:hover{
+        text-decoration-line: underline;
+    }
+    

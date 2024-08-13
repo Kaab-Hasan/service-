@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    /* HEADER WORK HERE */
+    .header{
+        background-color: white;
+        display:inline-block ;
+        width: 100%;
+        position: fixed;
+        /* background-color: white; */
+    }
+    .toggle,.navbar,.search{
+        display: inline-block;
+    }
+    
+    .toggle{
+        padding:30px ;
+        vertical-align: top;
+    }
+    button hr{
+        color: black;
+    }
+    .toggle button{
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        line-height: 5px;
+    
+    
+    }
+    .link{
+        width: 250px;
+        margin-top: 10px;
+    }
+    .link li,a{
+        list-style:none ;
+        text-decoration: none;
+        color: black;
+    }
+    .link a:hover{
+    color: rgb(233, 26, 26);
+    font-weight: bold;
+    }
+    .link>ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .search {
+        float: right;
+        padding: 30px;
+        vertical-align: middle;
+    }
+    .search input{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100px;
+    
+    }
+    .search button{
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+    }
+    
+    .search button:hover {
+        color: rgb(233, 26, 26);
+        font-weight: bold;
+    }
+    @media (max-width:567px) {
+        .header{
+            /* display:inline-block ; */
+            width: 100%;
+
+            position: fixed;
+            
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        
+            
+        }
+        .toggle,.navbar,.search{
+            display: block;
+        }
+        .navbar{
+         margin: auto;
+        }
+        .logo img{
+            width: 190px;
+        }
+        .toggle{
+            padding:30px ;
+            vertical-align: top;
+        }
+        button hr{
+            color: black;
+        }
+        .toggle button{
+            width: 30px;
+            height: 30px;
+            background-color:transparent;
+            border: none;
+            line-height: 5px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        
+        }
+        .link{
+            
+            width: 190px;
+            margin-top: 10px;
+        }
+        .link li,a{
+            font-size: 10px;
+            list-style:none ;
+            text-decoration: none;
+            color:rgb(66, 65, 65);
+        }
+        .search button:hover {
+            color: rgb(233, 26, 26);
+            font-weight: bold;
+        }
+        .link a:hover{
+            color: rgb(233, 26, 26);
+            font-weight: bold;
+            }
+        .link>ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        .search {
+            text-align: center;
+            display: block;
+            padding: 30px;
+            vertical-align: middle;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .search input{
+            text-align: center;
+            display: block;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid rgb(66, 65, 65);
+            width: 150px;
+        
+        }
+        .search button{
+            display: block;
+            background-color: transparent;
+            border: none;
+            font-weight: bold;
+            color: rgb(233, 26, 26);
+    
+        }
+        
+    ul,input{
+        margin: auto;
+    }
+    section{
+        margin: 0px;
+    }
+    
+    
+    }
+    /* FILTERBAR WORK IS HERE */
+    .filter{
+padding: 20px;
+        width: 90%;
+        height: 20px;
+        background-color: rgb(243, 238, 238);
+        font-size: 15px;
+        font-weight: lighter;
+        margin: auto;
+        border-bottom: 2px solid black;
+        position: relative;
+        top: 150px;
+        display:flex ;
+        justify-content: space-between;
+z-index: -1;
+    }
+  
+ /* ITEMS WORK IS HERE */
+.items{
+    padding-top:200px;
+    
+}
+.items {
+margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 100px;
+}
+.item{
+    /* background-color: aqua; */
+    width: 300px;
+
+}
+.item button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 4px;
+}
+.detail{
+    margin-top: 10px;
+    font-size: 20px;
+letter-spacing: 2px;
+line-height: 50px;
+}
+.item img{
+    width: 100%;
+    
+}
+.item img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+    
+ /* FOOTER WORK HER */
+ .email{
+    text-align: center;
+    padding: 50px;
+ }
+ .email h4{
+    font-size: 12px;
+ }
+ .email input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 400px;
+    margin-top: 70px;
+    height: 40px;
+    font-size: 20px;
+ }
+
+ 
+ /* FOOTER WORK IS HERE */
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+ .content{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.content a{
+    line-height: 40px;
+    font-size: 12px;
+}
+.content h5{
+    margin-bottom: 20px;
+}
+
+.content a:hover{
+    text-decoration-line: underline;
+}
